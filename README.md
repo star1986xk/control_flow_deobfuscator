@@ -68,4 +68,4 @@ Running the tool will generate the following files:
 
 ## License
 
-MIT License
+[MIT License](License)
