@@ -1,0 +1,38 @@
+{
+  "name": "js-ast-deobfuscator",
+  "version": "1.0.0",
+  "description": "JavaScript AST反混淆工具 - 基于Babel工具链",
+  "main": "js_ast_deobfuscator.js",
+  "scripts": {
+    "start": "node js_ast_deobfuscator.js",
+    "test": "node js_ast_deobfuscator.js 2.js ./output",
+    "install-deps": "npm install"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.23.0",
+    "@babel/traverse": "^7.23.0", 
+    "@babel/generator": "^7.23.0",
+    "@babel/types": "^7.23.0",
+    "@babel/core": "^7.23.0"
+  },
+  "devDependencies": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "javascript",
+    "ast",
+    "deobfuscation",
+    "babel",
+    "code-analysis",
+    "control-flow"
+  ],
+  "author": "AI Assistant",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
